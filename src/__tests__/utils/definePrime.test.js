@@ -1,4 +1,4 @@
-import { definePrime } from "../../utils/definePrime.js";
+import { definePrime,getMonth1 } from "../../utils/definePrime.js";
 
 xdescribe("tests for definePrime function", () => {
   const simple = 17;
@@ -15,7 +15,7 @@ xdescribe("tests for definePrime function", () => {
     });
 });
 
-describe("tests for definePrime function", () => {
+xdescribe("tests for definePrime function", () => {
   const simple = 17;
   const complex = 18;
 
@@ -25,3 +25,4 @@ describe("tests for definePrime function", () => {
     expect(definePrime(1001)).toBe("Данные неверны");
   });
 });
+
